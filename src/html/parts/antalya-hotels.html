@@ -1,0 +1,22 @@
+@@for (var i = 0; i < antalyaHotels.length; i++) { <div class="hotel-item">
+    <div class="img">
+        <span class="rating">
+            <img src="img/icons/rating.svg" alt="">
+            <i>5</i>
+        </span>
+        <img src="`+antalyaHotels[i].img+`" alt="`+antalyaHotels[i].title+`">
+    </div>
+    <div class="hotel-item__content">
+        <div class="loc">
+            <img src="img/icons/location.svg" alt="">
+            <span>`+antalyaHotels[i].loc+`</span>
+        </div>
+        <h3>`+antalyaHotels[i].title+`</h3>
+        <p>`+antalyaHotels[i].descr+`</p>
+        <div class="hotel-item__btns">
+            <a href=""`+antalyaHotels[i].link+`" target="_blank" class="_btn _btn-gray">Подробнее</a>
+            <a href="`+antalyaHotels[i].link+`" target="_blank" class="_btn _btn-accent">Бронировать</a>
+        </div>
+    </div>
+    </div>
+    }

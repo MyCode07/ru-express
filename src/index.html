@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Турция. Блочные программы</title>
+    <link href="img/favicon.svg" rel="icon" type="image/svg+xml">
+    <meta
+        name="Расписание рейсов и условия перевозки на блоках мест. Подбор и цены — онлайн-бронирование в «Русском Экспрессе» по типу тура «Блок».">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        @@include('./html/header.html')
+
+        <main>
+            <section class="hero" id="hero">
+                <div class="hero__container _container">
+                    <div class="hero__body">
+                        <div class="img">
+                            <picture>
+                                <source media="(min-width: 1024px)" srcset="img/hero-desktop.png" alt="">
+                                <source media="(min-width: 768px)" srcset="img/hero-tablet.png" alt="">
+                                <source media="(min-width: 430px)" srcset="img/hero-mobile.png" alt="">
+                                <source media="(min-width: 320px)" srcset="img/hero-320.png" alt="">
+                                <img src="img/hero-desktop.png" alt="">
+                            </picture>
+                        </div>
+                        <h1>Турция. <br>блочные программы</h1>
+                        <p>Расписание рейсов и условия перевозки на блоках мест. Подбор и цены — онлайн-бронирование в
+                            «Русском
+                            Экспрессе» по типу
+                            тура «Блок».</p>
+                        <a href="https://online.r-express.ru/search_tour?TOWNFROMINC=2&STATEINC=9&TOURTYPE=15&PRODUCTTYPE=1&CHECKIN_BEG=20260701&NIGHTS_FROM=7&CHECKIN_END=20260701&NIGHTS_TILL=7&ADULT=2&CURRENCY=1&CHILD=0&TOWNS_ANY=1&STARS=6&HOTELS_ANY=1&MEALS_ANY=1&ROOMS_ANY=1&FILTER=1&PRICEPAGE=1&DOLOAD=1"
+                            class="_btn _btn-white" target="_blank">
+                            Подобрать туры в Турцию
+                            <svg width="24" height="24" viewBox="0 0 24 24">
+                                <use xlink:href='img/svg/icons.svg#btn-arrow' />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section why" id="why">
+                <div class="section__container _container">
+                    <div class="section__body">
+                        <div class="section__title">
+                            <h2>Почему стоит бронировать блоки в «Русском Экспрессе»</h2>
+                        </div>
+                        <div class="grid">
+                            <div class="why-item">
+                                <div>
+                                    <h3>Гарантия мест на рейсах</h3>
+                                    <p>Места на рейсах S7 Airlines и Utair уже выкуплены. Никаких «переносов» и отказов
+                                        — ваши
+                                        туристы точно улетят на отдых в выбранные даты.</p>
+                                </div>
+                                <img src="img/why-1.png" class="bgi" alt="">
+                            </div>
+                            <div class="why-item">
+                                <div>
+                                    <h3>Готовый VIP-продукт</h3>
+                                    <p>Комбинируйте надежный перелет с нашим ассортиментом топ-отелей Турции. Высокий
+                                        уровень
+                                        сервиса начинается с отлаженного процесса бронирования.</p>
+                                </div>
+                                <img src="img/why-2.png" class="bgi" alt="">
+                                <img src="img/why-2-2.png" alt="">
+                            </div>
+                            <div class="why-item">
+                                <div>
+                                    <h3>Защита от скачков цен</h3>
+                                    <p>Никакого динамического ценообразования. Стоимость перелета фиксированная.</p>
+                                </div>
+                                <img src="img/why-3.png" class="bgi" alt="">
+                            </div>
+                            <div class="why-item">
+                                <div>
+                                    <h3>Моментальный подбор</h3>
+                                    <p>Специальный фильтр <b>БЛОК</b> в онлайне отсекает лишнее. Вы сразу видите
+                                        итоговую цену
+                                        пакета без
+                                        долгих перерасчетов актуализации рейса.</p>
+                                </div>
+                                <img src="img/why-4.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section programms" id="programms" data-tabs-area>
+                <div class="section__container _container">
+                    <div class="section__body">
+                        <div class="section__title">
+                            <h2>Полётные программы и условия</h2>
+                            <p>Выберите авиакомпанию, чтобы посмотреть расписание рейсов и правила перевозки.</p>
+                        </div>
+                        <div class="tabs parent-tabs">
+                            <button data-tab="s7" data-type="parent" class="_active">
+                                <img src="img/icons/s7.svg" alt="">
+                                S7 Airlines
+                            </button>
+                            <button data-tab="utair" data-type="parent">
+                                <img src="img/icons/utair.svg" alt="">
+                                Utair
+                            </button>
+                        </div>
+                        <div data-tab-content="s7" class="_active" data-type="parent">
+                            <div class="tab-blocks">
+                                <h3>Блоки на S7 Airlines</h3>
+                                <p>Блочная программа Москва – Анталья – Москва.</p>
+                                <ul>
+                                    <li>
+                                        <p>
+                                            <img src="img/icons/bagaj.svg" alt="">
+                                            <span>Багаж и питание</span>
+                                        </p>
+                                        <label> Багаж 23 кг, ручная кладь 10 кг, питание включено</label>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <img src="img/icons/aeroport.svg" alt="">
+                                            <span>Аэропорт</span>
+                                        </p>
+                                        <label>Вылет из а/п Домодедово</label>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <img src="img/icons/deti.svg" alt="">
+                                            <span>Дети (инфант)е</span>
+                                        </p>
+                                        <label>90 евро</label>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-timetable">
+                                <div class="tab-timetable__top">
+                                    <div class="tab-timetable__title">
+                                        <h3>Расписание рейсов S7 Airlines</h3>
+                                        <p>Блочная программа Москва – Анталья – Москва.</p>
+                                    </div>
+                                    <a href="https://online.r-express.ru/search_tour?TOWNFROMINC=2&STATEINC=9&TOURTYPE=15&PRODUCTTYPE=1&CHECKIN_BEG=20260701&NIGHTS_FROM=7&CHECKIN_END=20260701&NIGHTS_TILL=7&ADULT=2&CURRENCY=1&CHILD=0&TOWNS_ANY=1&STARS=6&HOTELS_ANY=1&MEALS_ANY=1&ROOMS_ANY=1&FILTER=1&PRICEPAGE=1&DOLOAD=1"
+                                        class="_btn _btn-accent _desktop" target="_blank">
+                                        Подобрать блок
+                                        <svg width="24" height="24" viewBox="0 0 24 24">
+                                            <use xlink:href='img/svg/icons.svg#btn-arrow' />
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="table">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th>Даты</th>
+                                                <th>Рейсы</th>
+                                                <th>Время вылета / прилета</th>
+                                                <th>Дни вылета</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>23.06 – 27.08</td>
+                                                <td>S7 3747 / 3748</td>
+                                                <td>11:10–16:20 / 17:20–22:05</td>
+                                                <td>Вт, Чт</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01.07 – 27.08</td>
+                                                <td>S7 3745 / 3746</td>
+                                                <td>08:45–13:55 / 14:55–19:40</td>
+                                                <td>Пн, Ср, Пт, Сб, Вс</td>
+                                            </tr>
+                                            <tr>
+                                                <td>29.08 – 26.10</td>
+                                                <td>S7 3745 / 3746</td>
+                                                <td>08:45–13:55 / 14:55–19:40</td>
+                                                <td><span>Ежедневно</span></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <a href="https://online.r-express.ru/search_tour?TOWNFROMINC=2&STATEINC=9&TOURTYPE=15&PRODUCTTYPE=1&CHECKIN_BEG=20260701&NIGHTS_FROM=7&CHECKIN_END=20260701&NIGHTS_TILL=7&ADULT=2&CURRENCY=1&CHILD=0&TOWNS_ANY=1&STARS=6&HOTELS_ANY=1&MEALS_ANY=1&ROOMS_ANY=1&FILTER=1&PRICEPAGE=1&DOLOAD=1"
+                                    class="_btn _btn-accent _mobile" target="_blank">
+                                    Подобрать блок
+                                    <svg width="24" height="24" viewBox="0 0 24 24">
+                                        <use xlink:href='img/svg/icons.svg#btn-arrow' />
+                                    </svg>
+                                </a>
+                            </div>
+
+                            <div class="tab-attention">
+                                <div class="icon">
+                                    <img src="img/icons/attention.svg" alt="">
+                                </div>
+                                <p>
+                                    <span>Важно: топливный сбор</span>
+                                    <label>
+                                        В турах вынесен в корзину «топливный сбор» в размере <b>270 евро/чел.</b> Это
+                                        обязательная некомиссионная доплата в корзине,
+                                        которая прибавляется автоматически, в корзине необходимо нажать кнопку
+                                        <b>«Пересчитать».</b></label>
+                                </p>
+                            </div>
+                        </div>
+                        <div data-tab-content="utair" data-type="parent">
+                            <div class="tab-blocks">
+                                <h3>Мягкие блоки на Utair</h3>
+                                <ul>
+                                    <li>
+                                        <p>
+                                            <img src="img/icons/bagaj.svg" alt="">
+                                            <span>Багаж и питание</span>
+                                        </p>
+                                        <label>Багаж 20 кг, ручная кладь 5 кг, питание не включено</label>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <img src="img/icons/aeroport.svg" alt="">
+                                            <span>Аэропорт</span>
+                                        </p>
+                                        <label>Вылет из а/п Внуково</label>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <img src="img/icons/deti.svg" alt="">
+                                            <span>Дети (инфант)е</span>
+                                        </p>
+                                        <label>10 евро</label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-timetable" data-tabs-area>
+                                <div class="tab-timetable__top">
+                                    <div class="tab-timetable__title">
+                                        <h3>Расписание рейсов Utair</h3>
+                                        <div class="tabs child-tabs">
+                                            <button data-tab="utair-moscow" class="tab-link _active"
+                                                data-type="child">Москва</button>
+                                            <button data-tab="utair-tyumen" class="tab-link"
+                                                data-type="child">Тюмень</button>
+                                            <button data-tab="utair-surgut" class="tab-link"
+                                                data-type="child">Сургут</button>
+                                        </div>
+                                    </div>
+                                    <a href="https://online.r-express.ru/search_tour?TOWNFROMINC=2&STATEINC=9&TOURTYPE=15&PRODUCTTYPE=1&CHECKIN_BEG=20260701&NIGHTS_FROM=7&CHECKIN_END=20260701&NIGHTS_TILL=7&ADULT=2&CURRENCY=1&CHILD=0&TOWNS_ANY=1&STARS=6&HOTELS_ANY=1&MEALS_ANY=1&ROOMS_ANY=1&FILTER=1&PRICEPAGE=1&DOLOAD=1"
+                                        data-tab-link="utair-moscow" class="_btn _btn-accent _active _desktop"
+                                        target="_blank">
+                                        Подобрать блок
+                                        <svg width="24" height="24" viewBox="0 0 24 24">
+                                            <use xlink:href='img/svg/icons.svg#btn-arrow' />
+                                        </svg>
+                                    </a>
+                                    <a href="https://online.r-express.ru/search_tour?TOWNFROMINC=1131&STATEINC=9&PRODUCTTYPE=1&CHECKIN_BEG=20260629&NIGHTS_FROM=7&CHECKIN_END=20260727&NIGHTS_TILL=7&ADULT=2&CURRENCY=1&CHILD=0&TOWNS_ANY=1&STARS=6&HOTELS_ANY=1&MEALS_ANY=1&ROOMS_ANY=1&FILTER=1&PRICEPAGE=1&DOLOAD=1"
+                                        data-tab-link="utair-tyumen" class="_btn _btn-accent _desktop" target="_blank">
+                                        Подобрать блок
+                                        <svg width="24" height="24" viewBox="0 0 24 24">
+                                            <use xlink:href='img/svg/icons.svg#btn-arrow' />
+                                        </svg>
+                                    </a>
+                                    <a href="https://online.r-express.ru/search_tour?TOWNFROMINC=1041&STATEINC=9&TOURTYPE=15&PRODUCTTYPE=1&CHECKIN_BEG=20260630&NIGHTS_FROM=7&CHECKIN_END=20260728&NIGHTS_TILL=7&ADULT=2&CURRENCY=1&CHILD=0&TOWNS_ANY=1&STARS=6&H"
+                                        data-tab-link="utair-surgut" class="_btn _btn-accent _desktop" target="_blank">
+                                        Подобрать блок
+                                        <svg width="24" height="24" viewBox="0 0 24 24">
+                                            <use xlink:href='img/svg/icons.svg#btn-arrow' />
+                                        </svg>
+                                    </a>
+                                </div>
+
+                                <div data-tab-content="utair-moscow" class="_active" data-type="child">
+                                    <div class="table">
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th>Даты</th>
+                                                    <th>Город</th>
+                                                    <th>Рейсы</th>
+                                                    <th>Время вылета / прилета</th>
+                                                    <th>Дни вылета</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>25.04 – 24.10</td>
+                                                    <td>Анталья</td>
+                                                    <td>UT783 / UT784</td>
+                                                    <td>10:30–15:30 – 16:50–21:50</td>
+                                                    <td>Ежедневно</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="tab-attention">
+                                        <div class="icon">
+                                            <img src="img/icons/attention.svg" alt="">
+                                        </div>
+                                        <p>
+                                            <span>Важно: топливный сбор</span>
+                                            <label>
+                                                В турах вынесен в корзину «топливный сбор» в размере <b>270
+                                                    евро/чел.</b> Это
+                                                обязательная некомиссионная доплата в корзине,
+                                                которая прибавляется автоматически, в корзине необходимо нажать кнопку
+                                                <b>«Пересчитать».</b></label>
+                                        </p>
+                                    </div>
+                                    <a href="https://online.r-express.ru/search_tour?TOWNFROMINC=2&STATEINC=9&TOURTYPE=15&PRODUCTTYPE=1&CHECKIN_BEG=20260701&NIGHTS_FROM=7&CHECKIN_END=20260701&NIGHTS_TILL=7&ADULT=2&CURRENCY=1&CHILD=0&TOWNS_ANY=1&STARS=6&HOTELS_ANY=1&MEALS_ANY=1&ROOMS_ANY=1&FILTER=1&PRICEPAGE=1&DOLOAD=1"
+                                        class="_btn _btn-accent _mobile" target="_blank">
+                                        Подобрать блок
+                                        <svg width="24" height="24" viewBox="0 0 24 24">
+                                            <use xlink:href='img/svg/icons.svg#btn-arrow' />
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div data-tab-content="utair-tyumen" data-type="child">
+                                    <div class="table">
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th>Даты</th>
+                                                    <th>Город</th>
+                                                    <th>Рейсы</th>
+                                                    <th>Время вылета / прилета</th>
+                                                    <th>Дни вылета</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>28.04 – 20.10</td>
+                                                    <td>Анталья</td>
+                                                    <td>UT811 / UT812</td>
+                                                    <td>08:50–12:20 / 13:30–20:30</td>
+                                                    <td>Вт, Пт </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>30.05 – 24.10</td>
+                                                    <td>Стамбул</td>
+                                                    <td>UT701 / UT702</td>
+                                                    <td>05:15–08:45 / 09:45–16:30</td>
+                                                    <td>Сб</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <a href="https://online.r-express.ru/search_tour?TOWNFROMINC=1131&STATEINC=9&PRODUCTTYPE=1&CHECKIN_BEG=20260629&NIGHTS_FROM=7&CHECKIN_END=20260727&NIGHTS_TILL=7&ADULT=2&CURRENCY=1&CHILD=0&TOWNS_ANY=1&STARS=6&HOTELS_ANY=1&MEALS_ANY=1&ROOMS_ANY=1&FILTER=1&PRICEPAGE=1&DOLOAD=1"
+                                        class="_btn _btn-accent _mobile" target="_blank">
+                                        Подобрать блок
+                                        <svg width="24" height="24" viewBox="0 0 24 24">
+                                            <use xlink:href='img/svg/icons.svg#btn-arrow' />
+                                        </svg>
+                                    </a>
+                                    <div class="tab-attention">
+                                        <div class="icon">
+                                            <img src="img/icons/attention.svg" alt="">
+                                        </div>
+                                        <p>
+                                            <span>Важно: топливный сбор</span>
+                                            <label>
+                                                В турах вынесен в корзину «топливный сбор» в размере <b>270
+                                                    евро/чел.</b> Это
+                                                обязательная некомиссионная доплата в корзине,
+                                                которая прибавляется автоматически, в корзине необходимо нажать кнопку
+                                                <b>«Пересчитать».</b></label>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div data-tab-content="utair-surgut" data-type="child">
+                                    <div class="table">
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th>Даты</th>
+                                                    <th>Город</th>
+                                                    <th>Рейсы</th>
+                                                    <th>Время вылета / прилета</th>
+                                                    <th>Дни вылета</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>01.06 – 28.09</td>
+                                                    <td>Анталья</td>
+                                                    <td>UT737 / UT738</td>
+                                                    <td>06:55–11:20 / 12:20–20:00</td>
+                                                    <td>Пн</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <a href="https://online.r-express.ru/search_tour?TOWNFROMINC=1041&STATEINC=9&TOURTYPE=15&PRODUCTTYPE=1&CHECKIN_BEG=20260630&NIGHTS_FROM=7&CHECKIN_END=20260728&NIGHTS_TILL=7&ADULT=2&CURRENCY=1&CHILD=0&TOWNS_ANY=1&STARS=6&H"
+                                        class="_btn _btn-accent _mobile" target="_blank">
+                                        Подобрать блок
+                                        <svg width="24" height="24" viewBox="0 0 24 24">
+                                            <use xlink:href='img/svg/icons.svg#btn-arrow' />
+                                        </svg>
+                                    </a>
+                                    <div class="tab-attention">
+                                        <div class="icon">
+                                            <img src="img/icons/attention.svg" alt="">
+                                        </div>
+                                        <p>
+                                            <span>Важно: топливный сбор</span>
+                                            <label>
+                                                В турах вынесен в корзину «топливный сбор» в размере <b>270
+                                                    евро/чел.</b> Это
+                                                обязательная некомиссионная доплата в корзине,
+                                                которая прибавляется автоматически, в корзине необходимо нажать кнопку
+                                                <b>«Пересчитать».</b></label>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section steps" id="steps">
+                <div class="section__container _container">
+                    <div class="section__body">
+                        <div class="section__title">
+                            <h2>Этапы приобретения</h2>
+                            <a href="" class="_btn _btn-accent _desktop" target="_blank">
+                                Подобрать туры в Турцию
+                                <svg width="24" height="24" viewBox="0 0 24 24">
+                                    <use xlink:href='img/svg/icons.svg#btn-arrow' />
+                                </svg>
+                            </a>
+                        </div>
+
+                        <div class="grid">
+                            <div class="steps-item">
+                                <span class="icon">
+                                    <img src="img/icons/step.svg" alt="">
+                                </span>
+                                <div>
+                                    <p>В фильтрах выберите тип тура <label>БЛОК</label></p>
+                                    <picture>
+                                        <source media="(min-width: 769px)" srcset="img/step-1.png" alt="">
+                                        <img src="img/step-1-mb.png" alt="">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="steps-item">
+                                <span class="icon">
+                                    <img src="img/icons/step.svg" alt="">
+                                </span>
+                                <div>
+                                    <p>Подберите параметры тура (даты, состав, город)</p>
+                                    <picture>
+                                        <source media="(min-width: 768px)" srcset="img/step-2.png" alt="">
+                                        <img src="img/step-2-mb.png" alt="">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="steps-item">
+                                <span class="icon">
+                                    <img src="img/icons/step.svg" alt="">
+                                </span>
+                                <div>
+                                    <p>Если в корзине добавлен «топливный сбор», нажмите «Пересчитать»</p>
+                                    <picture>
+                                        <source media="(min-width: 768px)" srcset="img/step-3.png" alt="">
+                                        <img src="img/step-3-mb.png" alt="">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href="https://online.r-express.ru/search_tour?TOWNFROMINC=2&STATEINC=9&TOURTYPE=15&PRODUCTTYPE=1&CHECKIN_BEG=20260701&NIGHTS_FROM=7&CHECKIN_END=20260701&NIGHTS_TILL=7&ADULT=2&CURRENCY=1&CHILD=0&TOWNS_ANY=1&STARS=6&HOTELS_ANY=1&MEALS_ANY=1&ROOMS_ANY=1&FILTER=1&PRICEPAGE=1&DOLOAD=1"
+                            class="_btn _btn-accent _mobile" target="_blank">
+                            Подобрать туры в Турцию
+                            <svg width="24" height="24" viewBox="0 0 24 24">
+                                <use xlink:href='img/svg/icons.svg#btn-arrow' />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section hotels" id="hotels" data-tabs-area>
+                <div class="section__container _container">
+                    <div class="section__body">
+                        <div class="section__title">
+                            <h2>Рекомендованные отели</h2>
+                            <p>Быстрый ориентир по востребованным отелям для ваших туристов.</p>
+                        </div>
+                        <div class="tabs child-tabs">
+                            <button data-tab="antalya" data-type="parent" class="_active">
+                                Анталийское побережье
+                            </button>
+                            <button data-tab="stambul" data-type="parent">
+                                Стамбул
+                            </button>
+                        </div>
+                        <div data-tab-content="antalya" class="_active" data-type="parent">
+                            <div class="grid">
+                                @@include('html/parts/antalya-hotels.html')
+                            </div>
+
+                            <button class="_btn _btn-black more-hotels" data-text-show="Показать больше"
+                                data-text-hide="Скрыть">Показать больше</button>
+                        </div>
+                        <div data-tab-content="stambul" data-type="parent">
+                            <div class="grid">
+                                @@include('html/parts/stambul-hotels.html')
+                            </div>
+
+                            <button class="_btn _btn-black more-hotels" data-text-show="Показать больше"
+                                data-text-hide="Скрыть">Показать
+                                больше</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section cta" id="cta">
+                <div class="section__container _container">
+                    <div class="section__body">
+                        <img src="img/cta.png" alt="">
+
+                        <div class="cta-content">
+                            <h2>Готовы подобрать тур под запрос клиента?</h2>
+                            <p>Откройте подбор в онлайне «Русского Экспресса» и выберите тип тура <label>БЛОК</label>,
+                                чтобы
+                                увидеть
+                                актуальные
+                                цены по блочным
+                                программам.</p>
+                            <a href="https://online.r-express.ru/search_tour?TOWNFROMINC=2&STATEINC=9&TOURTYPE=15&PRODUCTTYPE=1&CHECKIN_BEG=20260701&NIGHTS_FROM=7&CHECKIN_END=20260701&NIGHTS_TILL=7&ADULT=2&CURRENCY=1&CHILD=0&TOWNS_ANY=1&STARS=6&HOTELS_ANY=1&MEALS_ANY=1&ROOMS_ANY=1&FILTER=1&PRICEPAGE=1&DOLOAD=1"
+                                class="_btn _btn-accent" target="_blank">
+                                Подобрать туры в Турцию
+                                <svg width="24" height="24" viewBox="0 0 24 24">
+                                    <use xlink:href='img/svg/icons.svg#btn-arrow' />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        @@include('./html/footer.html')
+    </div>
+
+    <script src="js/app.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+@@for (var i = 0; i < stambulHotels.length; i++) { <div class="hotel-item">
+    <div class="img">
+        <span class="rating">
+            <img src="img/icons/rating.svg" alt="">
+            <i>5</i>
+        </span>
+        <img src="`+stambulHotels[i].img+`" alt="`+stambulHotels[i].title+`">
+    </div>
+    <div class="hotel-item__content">
+        <div class="loc">
+            <img src="img/icons/location.svg" alt="">
+            <span>`+stambulHotels[i].loc+`</span>
+        </div>
+        <h3>`+stambulHotels[i].title+`</h3>
+        <p>`+stambulHotels[i].descr+`</p>
+        <div class="hotel-item__btns">
+            <a href="`+stambulHotels[i].link+`" target="_blank" class="_btn _btn-gray">Подробнее</a>
+            <a href="`+stambulHotels[i].link+`" target="_blank" class="_btn _btn-accent">Бронировать</a>
+        </div>
+    </div>
+    </div>
+    }

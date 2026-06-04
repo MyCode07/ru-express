@@ -1,0 +1,72 @@
+[
+    {
+        "title": "Akka Lush",
+        "loc": "Турция, Стамбул, Таксим",
+        "img": "../img/hotels/stambul/Akka Lush.png",
+        "link": "https://r-express.ru/guide/turkey/hotel/akka-lush/",
+        "descr": "Отель в центре Стамбула, расположенный вблизи площади Таксим, в живописном районе Бейоглу. Отель расположен в историческом здании 1896 года постройки с высокими потолками."
+    },
+    {
+        "title": "Lady Diana",
+        "loc": "Турция, Стамбул, Султанахмет",
+        "img": "../img/hotels/stambul/Lady Diana.png",
+        "link": "https://r-express.ru/guide/turkey/hotel/lady-diana/",
+        "descr": "Четырехзвездочный отель, расположенный в историческом центре Стамбула, в районе Султанахмет, всего в нескольких минутах ходьбы от Голубой мечети и других достопримечательностей города."
+    },
+    {
+        "title": "Akka Suites",
+        "loc": "Турция, Стамбул",
+        "img": "../img/hotels/stambul/Akka Suites.png",
+        "link": "https://r-express.ru/guide/turkey/hotel/akka-hotels-suites/",
+        "descr": "Akka Suites расположен в европейской части Стамбула в Турции, в самом сердце оживленного и исторического района Бейоглу."
+    },
+    {
+        "title": "Albatros Hagia Sophia",
+        "loc": "Турция, Стамбул, Султанахмет",
+        "img": "../img/hotels/stambul/Albatros Hagia Sophia.png",
+        "link": "https://r-express.ru/guide/turkey/hotel/albatros-hagia-sophia-hotel/",
+        "descr": "Отель в историческом центре Стамбула. Он расположен в районе Фатих, в пешей доступности от собора Святой Софии, площади Султанахмет, Голубой мечети и других ключевых достопримечательностей. "
+    },
+    {
+        "title": "Rixos Tersane Istanbul",
+        "loc": "Турция, Стамбул",
+        "img": "../img/hotels/stambul/Rixos Pera.png",
+        "link": "https://r-express.ru/guide/turkey/hotel/rixos-tersane-istanbul/",
+        "descr": "Пятизвездочный отель, расположенный на берегу залива Золотой Рог, гармонично сочетающий богатое культурное наследие с современным комфортом, предлагая уникальный опыт проживания в самом сердце Стамбула.​"
+    },
+    {
+        "title": "Swissotel The Bosphorus ",
+        "loc": "Турция, Стамбул, Бешикташ",
+        "img": "../img/hotels/stambul/Swissotel The Bosphorus.png",
+        "link": "https://r-express.ru/guide/turkey/hotel/swissotel-the-bosphorus/",
+        "descr": "Пятизвездочный отель класса люкс, входящий в элитную сеть отелей Swissotel. Расположен в центре Стамбула на европейском берегу пролива Босфор. "
+    },
+    {
+        "title": "Rixos Pera",
+        "loc": "Турция, Стамбул, Пера",
+        "img": "../img/hotels/stambul/Rixos Pera.png",
+        "link": "https://r-express.ru/guide/turkey/hotel/rixos-pera/",
+        "descr": "Расположенный в самом сердце оживленного района Бейоглу, неподалеку от исторической площади Таксим, башни Галата и знаменитой улицы Истикляль, отель Rixos Pera Istanbul воплощает в себе гармонию культурного духа и современного комфорта в сердце города. "
+    },
+    {
+        "title": "Cvk Park Bosphorus",
+        "loc": "Турция, Стамбул",
+        "img": "../img/hotels/stambul/Cvk Park Bosphorus.png",
+        "link": "https://r-express.ru/guide/turkey/hotel/cvk-park-bosphorus-hotel-istanbul/",
+        "descr": "Мир непревзойденного комфорта и отдыха в историческом здании Park Hotel, отель предоставляет своим гостям традиционную атмосферу и неповторимое турецкое гостеприимство."
+    },
+    {
+        "title": "Vogue Supreme Istanbul",
+        "loc": "Турция, Стамбул, Султанахмет",
+        "img": "../img/hotels/stambul/Vogue Supreme Istanbul.png",
+        "link": "https://r-express.ru/guide/turkey/hotel/vogue-hotel-supreme-istanbul/",
+        "descr": "Премиум отель в историческом центре Стамбула, расположенный в шаговой доступности от известных достопримечательностей."
+    },
+    {
+        "title": "Dosso Dossi Old City Sultanahmet ",
+        "loc": "Турция, Стамбул, Султанахмет",
+        "img": "../img/hotels/stambul/Dosso Dossi Old City Sultanahmet.png",
+        "link": "https://r-express.ru/guide/turkey/hotel/dosso/",
+        "descr": "Пятиэтажное здание в историческом центре Султанахмет предлагает туристам все необходимое для комфортного отдыха."
+    }
+]

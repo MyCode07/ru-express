@@ -1,0 +1,18 @@
+// null default styles
+@import "null";
+// load fonts
+@import "fonts";
+//load variables
+@import "common/variables";
+// load mixins
+@import "mixins";
+// load common
+@import "common/common";
+// load header
+@import "common/header";
+// load footer
+@import "common/footer";
+// load section
+@import "parts/section";
+// load hero
+@import "parts/hero";
