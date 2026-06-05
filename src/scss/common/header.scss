@@ -1,10 +1,14 @@
 .header {
     background-color: $white;
-    padding: 15px 0;
+    padding: 12px 0;
     margin-bottom: 32px;
     position: sticky;
     top: 0;
     z-index: 10;
+
+    @media (max-width:430px) {
+        padding: 15px 0;
+    }
 
     // .header__container
     &__container {}
@@ -26,6 +30,11 @@
         @media (max-width:768px) {
             width: 133px;
             height: 40px;
+        }
+
+        @media (max-width:730px) {
+            width: 131px;
+            height: 38px;
         }
 
         img,
@@ -141,6 +150,8 @@
         ._btn {
             height: 44px;
             border-radius: 12px;
+            font-weight: 500;
+            padding: 11px 20px;
         }
 
         @media (max-width:768px) {
