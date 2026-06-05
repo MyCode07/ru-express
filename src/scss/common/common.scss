@@ -218,6 +218,7 @@ main {
     pointer-events: none;
 }
 
+[data-tab-airport]:not(._active),
 [data-tab-link]:not(._active),
 [data-tab-content]:not(._active) {
     display: none !important;

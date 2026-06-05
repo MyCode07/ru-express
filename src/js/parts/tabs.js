@@ -40,6 +40,14 @@ if (tabAreas.length) {
                             link.classList.add('_active');
                         }
                     });
+
+                    document.querySelectorAll(`.programms [data-tab-airport]`).forEach(link => {
+                        if (link.dataset.tabAirport != id) {
+                            link.classList.remove('_active');
+                        } else {
+                            link.classList.add('_active');
+                        }
+                    });
                 }
             });
         });
